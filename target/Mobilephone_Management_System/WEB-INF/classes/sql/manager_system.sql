@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50722
 File Encoding         : 65001
 
-Date: 2018-09-03 15:04:37
+Date: 2018-09-03 20:26:36
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -20,7 +20,7 @@ SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 DROP TABLE IF EXISTS `agent`;
 CREATE TABLE `agent` (
-  `id` varchar(255) NOT NULL,
+  `id` int(255) NOT NULL,
   `ygid` varchar(255) NOT NULL,
   `ygmc` varchar(255) NOT NULL,
   `xsje` varchar(255) DEFAULT NULL,
@@ -43,7 +43,7 @@ INSERT INTO `agent` VALUES ('288', '15', '小刘', '0', '0', '0', '0', 'admin');
 -- ----------------------------
 DROP TABLE IF EXISTS `ck`;
 CREATE TABLE `ck` (
-  `id` varchar(255) NOT NULL,
+  `id` int(255) NOT NULL,
   `ckmc` varchar(255) NOT NULL,
   `jm` varchar(255) DEFAULT NULL,
   `fzr` varchar(255) DEFAULT NULL,
@@ -66,7 +66,7 @@ INSERT INTO `ck` VALUES ('12', '仓库1', 'CK1', '', '                          
 -- ----------------------------
 DROP TABLE IF EXISTS `customer`;
 CREATE TABLE `customer` (
-  `id` varchar(255) NOT NULL,
+  `id` int(255) NOT NULL,
   `customer` varchar(255) NOT NULL,
   `jm` varchar(255) DEFAULT NULL,
   `lxr` varchar(255) DEFAULT NULL,
@@ -183,8 +183,8 @@ INSERT INTO `goods_inf` VALUES ('7200001', '手机套', 'SJT', 'False', '其它'
 DROP TABLE IF EXISTS `import_order`;
 CREATE TABLE `import_order` (
   `id` varchar(255) NOT NULL,
-  `manufacturer` varchar(255) NOT NULL,
-  `ck` varchar(255) NOT NULL,
+  `manufacturer` int(255) NOT NULL,
+  `ck` int(255) NOT NULL,
   `date` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `yfje` int(10) NOT NULL,
   `sfje` int(10) NOT NULL,
@@ -224,7 +224,7 @@ INSERT INTO `import_order` VALUES ('CJ100819010001', '2', '11', '2010-08-19 00:0
 -- ----------------------------
 DROP TABLE IF EXISTS `manufacturer`;
 CREATE TABLE `manufacturer` (
-  `id` varchar(255) NOT NULL,
+  `id` int(255) NOT NULL,
   `ghsmc` varchar(255) NOT NULL,
   `jm` varchar(255) DEFAULT NULL,
   `lxr` varchar(255) DEFAULT NULL,
@@ -257,8 +257,8 @@ INSERT INTO `manufacturer` VALUES ('35', '三星供货商', 'SXGHS', '', '      
 DROP TABLE IF EXISTS `sales_order`;
 CREATE TABLE `sales_order` (
   `id` varchar(255) NOT NULL,
-  `customer` varchar(255) NOT NULL,
-  `ck` varchar(255) NOT NULL,
+  `customer` int(255) NOT NULL,
+  `ck` int(255) NOT NULL,
   `date` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `yfje` varchar(255) NOT NULL,
   `sfje` varchar(255) NOT NULL,
@@ -319,17 +319,18 @@ CREATE TABLE `user` (
 -- ----------------------------
 -- Records of user
 -- ----------------------------
+INSERT INTO `user` VALUES ('1', 'admin', '123456');
 
 -- ----------------------------
 -- Table structure for warehouse
 -- ----------------------------
 DROP TABLE IF EXISTS `warehouse`;
 CREATE TABLE `warehouse` (
-  `id` varchar(255) NOT NULL,
+  `id` int(255) NOT NULL,
   `goods_id` varchar(255) NOT NULL,
   `num` int(10) NOT NULL,
   `cost price` int(10) NOT NULL,
-  `ck` varchar(255) NOT NULL,
+  `ck` int(255) NOT NULL,
   `xssl` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;

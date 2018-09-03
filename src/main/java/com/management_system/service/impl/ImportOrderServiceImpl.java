@@ -14,4 +14,9 @@ public class ImportOrderServiceImpl implements ImportOrderService {
     public ImportOrder getImportOrder(String id) {
         return importOrderMapper.selectByPrimaryKey(id);
     }
+
+    @Override
+    public int insert(ImportOrder order) {
+        return importOrderMapper.insert(order);
+    }
 }

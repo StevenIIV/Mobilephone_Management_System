@@ -14,4 +14,9 @@ public class SalesOrderServiceImpl implements SalesOrderService {
     public SalesOrder getImportOrder(String id) {
         return salesOrderMapper.selectByPrimaryKey(id);
     }
+
+    @Override
+    public int insert(SalesOrder order) {
+        return salesOrderMapper.insert(order);
+    }
 }

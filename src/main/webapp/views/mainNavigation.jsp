@@ -1,44 +1,104 @@
 <%--
   Created by IntelliJ IDEA.
   User: admin
-  Date: 2018/7/10
-  Time: 12:39
+  Date: 2018-09-04
+  Time: 10:32
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<script>
-    window.onload=function () {
-        $( "#accordion" ).accordion({
-            collapsible: false
-        });
-        var a=${page};
-        if(a==1){
-            $("#accordion").accordion("select","账户管理");
-        }
-        if(a==2){
-            $("#accordion").accordion("select","本地文件管理");
-        }
-        if(a==3){
-            $("#accordion").accordion("select","云端文件管理");
-        }
-    }
-</script>
-<div region="west" style="width: 200px" title="功能菜单" split="true">
-    <div id="accordion" class="easyui-accordion" data-options="fit:true,border:false,selected:false">
-        <div id="first" title="账户管理" data-options="iconCls:'icon-ok'" style="padding: 10px"  >
-            <a href="/web/userInfo" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-edit'" style="width: 150px">个人信息</a>
-            <a href="/web/resetPassword" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-edit'" style="width: 150px">密码重置</a>
-        </div>
+<div class="tpl-left-nav tpl-left-nav-hover">
+    <div class="tpl-left-nav-title">列表</div>
+    <div class="tpl-left-nav-list">
+        <ul class="tpl-left-nav-menu">
+            <li class="tpl-left-nav-item">
+                <a href="index.jsp" class="nav-link active">
+                    <i class="am-icon-home"></i>
+                    <span>首页</span>
+                </a>
+            </li>
+            <li class="tpl-left-nav-item">
+                <a href="#" class="nav-link tpl-left-nav-link-list">
+                    <i class="am-icon-key"></i>
+                    <span>进货管理</span>
+                </a>
+            </li>
+            <li class="tpl-left-nav-item">
+                <a href="#" class="nav-link tpl-left-nav-link-list">
+                    <i class="am-icon-key"></i>
+                    <span>销售管理</span>
 
-        <div id="second" title="本地文件管理" data-options="iconCls:'icon-mini-add'" style="padding: 10px" >
-            <a href="/web/fileSearch" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-search'" style="width: 150px;">文件搜索</a>
-            <a href="/web/fileClassification" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-reload'" style="width: 150px;">文件分类</a>
-        </div>
+                </a>
+            </li>
+            <li class="tpl-left-nav-item">
+                <a href="#" class="nav-link tpl-left-nav-link-list">
+                    <i class="am-icon-key"></i>
+                    <span>库存管理</span>
 
-        <div id="third" title="云端文件管理" data-options="iconCls:'icon-tip'" style="padding: 10px">
-            <a href="/web/showCloud" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-tip'" style="width: 150px;">云端文件</a>
-            <a href="#" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-tip'" style="width: 150px;">云端上传</a>
-        </div>
+                </a>
+            </li>
+            <li class="tpl-left-nav-item">
+                <a href="javascript:;" class="nav-link tpl-left-nav-link-list">
+                    <i class="am-icon-table"></i>
+                    <span>统计报表</span>
+                    <i class="am-icon-angle-right tpl-left-nav-more-ico am-fr am-margin-right"></i>
+                </a>
+                <ul class="tpl-left-nav-sub-menu" style="display: block;">
+                    <li>
+                        <a href="#">
+                            <i class="am-icon-angle-right"></i>
+                            <span>文字表格</span>
+                            <i class="am-icon-star tpl-left-nav-content-ico am-fr am-margin-right"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="am-icon-angle-right"></i>
+                            <span>图片表格</span>
+                        </a>
+                        <a href="#">
+                            <i class="am-icon-angle-right"></i>
+                            <span>消息列表</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="tpl-left-nav-item">
+                <a href="javascript:;" class="nav-link tpl-left-nav-link-list">
+                    <i class="am-icon-wpforms"></i>
+                    <span>日常管理</span>
+                    <i class="am-icon-angle-right tpl-left-nav-more-ico am-fr am-margin-right tpl-left-nav-more-ico-rotate"></i>
+                </a>
+                <ul class="tpl-left-nav-sub-menu">
+                    <li>
+                        <a href="#">
+                            <i class="am-icon-angle-right"></i>
+                            <span>供应商管理</span>
+                            <i class="am-icon-star tpl-left-nav-content-ico am-fr am-margin-right"></i>
+                        </a>
+                        <a href="#">
+                            <i class="am-icon-angle-right"></i>
+                            <span>财务综合管理</span>
+                        </a>
+                        <a href="#">
+                            <i class="am-icon-angle-right"></i>
+                            <span>业务员管理</span>
+                        </a>
+                        <a href="#">
+                            <i class="am-icon-angle-right"></i>
+                            <span>合同管理</span>
+                        </a>
+                        <a href="#">
+                            <i class="am-icon-angle-right"></i>
+                            <span>报价管理</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="tpl-left-nav-item">
+                <a href="#" class="nav-link tpl-left-nav-link-list">
+                    <i class="am-icon-key"></i>
+                    <span>系统设置</span>
+                </a>
+            </li>
+        </ul>
     </div>
 </div>
-

@@ -15,7 +15,7 @@
 <div id="login">
     <div class="wrapper">
         <div class="login">
-            <form action="/login.do" method="post" class="container offset1 loginform">
+            <form action="login.do" method="post" class="container offset1 loginform">
                 <div id="owl-login">
                     <div class="hand"></div>
                     <div class="hand hand-r"></div>
@@ -29,7 +29,7 @@
                     <div class="control-group">
                         <div class="controls">
                             <label for="username" class="control-label fa fa-envelope"></label>
-                            <input id="username" type="username" name="username" placeholder="Username" tabindex="1" autofocus="autofocus" class="form-control input-medium">
+                            <input id="username" type="text" name="username" placeholder="Username" tabindex="1" autofocus="autofocus" class="form-control input-medium">
                         </div>
                     </div>
                     <div class="control-group">

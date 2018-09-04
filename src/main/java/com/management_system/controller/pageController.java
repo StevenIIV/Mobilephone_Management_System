@@ -9,5 +9,12 @@ public class pageController {
     public String index(){
         return "index";
     }
-
+    @RequestMapping(value = "/importManagement")
+    public String importManagement(){
+        return "importManagement";
+    }
+    @RequestMapping(value = "/salesManagement")
+    public String salesManagement(){
+        return "salesManagement";
+    }
 }

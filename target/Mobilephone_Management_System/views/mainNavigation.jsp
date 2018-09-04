@@ -17,16 +17,15 @@
                 </a>
             </li>
             <li class="tpl-left-nav-item">
-                <a href="#" class="nav-link tpl-left-nav-link-list">
+                <a href="importManagement" class="nav-link tpl-left-nav-link-list">
                     <i class="am-icon-user-plus"></i>
                     <span>进货管理</span>
                 </a>
             </li>
             <li class="tpl-left-nav-item">
-                <a href="#" class="nav-link tpl-left-nav-link-list">
+                <a href="salesManagement" class="nav-link tpl-left-nav-link-list">
                     <i class="am-icon-line-chart"></i>
                     <span>销售管理</span>
-
                 </a>
             </li>
             <li class="tpl-left-nav-item">

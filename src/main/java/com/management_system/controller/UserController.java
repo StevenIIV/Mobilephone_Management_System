@@ -35,7 +35,7 @@ public class UserController {
         else{
             User user=userService.getUser(id);
             httpSession.setAttribute("user",user);
-            out.print("<script language='javascript'>window.location.href='/Mobilephone/mainContent';</script>");
+            out.print("<script language='javascript'>window.location.href='/Mobilephone/index';</script>");
         }
     }
 }

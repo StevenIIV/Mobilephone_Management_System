@@ -17,8 +17,12 @@ public class pageController {
     public String salesManagement(){
         return "salesManagement";
     }
-    @RequestMapping(value = "/kucun")
-    public String kucun(){
-        return "kucun";
+    @RequestMapping(value = "/warehouseManagement")
+    public String warehouseManagement(){
+        return "warehouseManagement";
+    }
+    @RequestMapping(value = "/importOrder")
+    public String importOrder(){
+        return "importOrder";
     }
 }

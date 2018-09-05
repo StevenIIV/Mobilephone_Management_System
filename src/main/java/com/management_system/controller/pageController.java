@@ -17,4 +17,8 @@ public class pageController {
     public String salesManagement(){
         return "salesManagement";
     }
+    @RequestMapping(value = "/kucun")
+    public String kucun(){
+        return "kucun";
+    }
 }

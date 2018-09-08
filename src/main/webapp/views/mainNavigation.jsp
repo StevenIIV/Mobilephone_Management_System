@@ -29,7 +29,7 @@
                 </a>
             </li>
             <li class="tpl-left-nav-item">
-                <a href="#" class="nav-link tpl-left-nav-link-list">
+                <a href="warehouse" class="nav-link tpl-left-nav-link-list">
                     <i class="am-icon-suitcase"></i>
                     <span>库存管理</span>
 

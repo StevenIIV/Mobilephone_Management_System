@@ -25,4 +25,20 @@ public class pageController {
     public String importOrder(){
         return "importOrder";
     }
+    @RequestMapping(value = "/importOrderQuery")
+    public String importOrderQuery(){
+        return "importOrderQuery";
+    }
+    @RequestMapping(value = "/salesOrder")
+    public String salesOrder(){
+        return "salesOrder";
+    }
+    @RequestMapping(value = "/salesOrderQuery")
+    public String salesOrderQuery(){
+        return "salesOrderQuery";
+    }
+    @RequestMapping(value = "/warehouse")
+    public String warehouse(){
+        return "warehouse";
+    }
 }

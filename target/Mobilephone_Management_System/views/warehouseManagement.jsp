@@ -46,22 +46,34 @@
                         <thead>
                         <tr>
                             <th class="table-check"></th>
-                            <th>ID</th>
-                            <th>标题</th>
-                            <th>类别</th>
-                            <th>作者</th>
-                            <th>修改日期</th>
-                            <th>操作</th>
+                            <th>商品ID</th>
+                            <th>商品名称</th>
+                            <th>库存量</th>
+                            <th>销售总量</th>
+                            <th>上次进价</th>
+                            <th>成本均价</th>
+                            <th>库存总值</th>
+                            <th>单位</th>
+                            <th>规格型号</th>
+                            <th>颜色</th>
+                            <th>生产厂商</th>
+                            <th><center>操作</center></th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
                             <td><input type="checkbox"></td>
+                            <td>67000003</td>
+                            <td>LG C270</td>
                             <td>1</td>
-                            <td>Business management</td>
-                            <td>default</td>
-                            <td class="am-hide-sm-only">测试1号</td>
-                            <td class="am-hide-sm-only">2014年9月4日 7:28:47</td>
+                            <td>0</td>
+                            <td>3050</td>
+                            <td>3050</td>
+                            <td>3050</td>
+                            <td>部</td>
+                            <td>c270</td>
+                            <td>统一</td>
+                            <td></td>
                             <td>
                                 <div class="am-btn-toolbar">
                                     <div class="am-btn-group am-btn-group-xs">
@@ -74,6 +86,10 @@
                         </tr>
                         </tbody>
                     </table>
+
+
+
+
                     <div class="am-cf">
                         <div class="am-fr">
                             <ul class="am-pagination tpl-pagination">

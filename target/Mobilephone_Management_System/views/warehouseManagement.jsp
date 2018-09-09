@@ -1,4 +1,4 @@
-<%--
+<%@ page import="java.util.List" %><%--
   Created by IntelliJ IDEA.
   User: admin
   Date: 2018-09-05
@@ -29,6 +29,21 @@
                     <select data-am-selected="{btnSize: 'sm'}">
                         <option value="option1">所有类别</option>
                         <option value="option2">诺基亚</option>
+                        <option value="option3">波导</option>
+                        <option value="option4">飞利浦</option>
+                        <option value="option5">摩托罗拉</option>
+                        <option value="option6">索尼爱立信</option>
+                        <option value="option7">三星</option>
+                        <option value="option8">NEC</option>
+                        <option value="option9">松下</option>
+                        <option value="option10">TCL</option>
+                        <option value="option11">夏新</option>
+                        <option value="option12">联想</option>
+                        <option value="option13">LG</option>
+                        <option value="option14">电池</option>
+                        <option value="option15">充电器</option>
+                        <option value="option16">耳机</option>
+                        <option value="option17">其它</option>
                     </select>
                 </div>
             </div>
@@ -61,19 +76,23 @@
                         </tr>
                         </thead>
                         <tbody>
+                        <%
+                            List<List<Object>> list= (List<List<Object>>) session.getAttribute("warehouselist");
+                            for(int i=0;i<list.size();i++){
+                        %>
                         <tr>
                             <td><input type="checkbox"></td>
-                            <td>67000003</td>
-                            <td>LG C270</td>
-                            <td>1</td>
-                            <td>0</td>
-                            <td>3050</td>
-                            <td>3050</td>
-                            <td>3050</td>
-                            <td>部</td>
-                            <td>c270</td>
-                            <td>统一</td>
-                            <td></td>
+                            <td><%=list.get(i).get(0)%></td>
+                            <td><%=list.get(i).get(1)%></td>
+                            <td><%=list.get(i).get(2)%></td>
+                            <td><%=list.get(i).get(3)%></td>
+                            <td><%=list.get(i).get(4)%></td>
+                            <td><%=list.get(i).get(5)%></td>
+                            <td><%=list.get(i).get(6)%></td>
+                            <td><%=list.get(i).get(7)%></td>
+                            <td><%=list.get(i).get(8)%></td>
+                            <td><%=list.get(i).get(9)%></td>
+                            <td><%=list.get(i).get(10)%></td>
                             <td>
                                 <div class="am-btn-toolbar">
                                     <div class="am-btn-group am-btn-group-xs">
@@ -84,6 +103,9 @@
                                 </div>
                             </td>
                         </tr>
+                        <%
+                            }
+                        %>
                         </tbody>
                     </table>
 

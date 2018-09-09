@@ -6,6 +6,8 @@ import com.management_system.service.ImportOrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service("importOrderService")
 public class ImportOrderServiceImpl implements ImportOrderService {
     @Autowired
@@ -18,5 +20,10 @@ public class ImportOrderServiceImpl implements ImportOrderService {
     @Override
     public int insert(ImportOrder order) {
         return importOrderMapper.insert(order);
+    }
+
+    @Override
+    public List<ImportOrder> getAllImportOrder() {
+        return importOrderMapper.selectAll();
     }
 }

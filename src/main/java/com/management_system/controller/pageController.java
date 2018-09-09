@@ -1,9 +1,9 @@
 package com.management_system.controller;
 
 import com.management_system.model.GoodsInf;
+import com.management_system.model.ImportOrder;
 import com.management_system.model.Warehouse;
-import com.management_system.service.GoodsinfService;
-import com.management_system.service.WarehouseService;
+import com.management_system.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,9 +15,15 @@ import java.util.List;
 @Controller
 public class pageController {
     @Autowired
+    private ImportOrderService importOrderService;
+    @Autowired
+    private SalesOrderService salesOrderService;
+    @Autowired
     private WarehouseService warehouseService;
     @Autowired
     private GoodsinfService goodsinfService;
+    @Autowired
+    private OtherServices otherServices;
     @RequestMapping(value = "/index")
     public String index(){
         return "index";
@@ -60,7 +66,25 @@ public class pageController {
         return "importOrder";
     }
     @RequestMapping(value = "/importOrderQuery")
-    public String importOrderQuery(){
+    public String importOrderQuery(HttpSession httpSession){
+        List<ImportOrder> list=importOrderService.getAllImportOrder();
+        List<List<Object>> importorderlist=new ArrayList<>();
+        for(int i=0;i<list.size();i++){
+            ImportOrder importOrder=list.get(i);
+            List<Object> l=new ArrayList<>();
+            l.add(otherServices.getManufacturer(importOrder.getManufacturer()).getGhsmc());
+            l.add(importOrder.getDate());
+            l.add("手机");
+            l.add(importOrder.getId());
+            l.add("进货支付");
+            l.add(importOrder.getYfje());
+            l.add(importOrder.getSfje());
+            l.add(importOrder.getYfje());
+            l.add(otherServices.getAgent(importOrder.getAgent()).getYgmc());
+            l.add(importOrder.getCzy());
+            importorderlist.add(l);
+        }
+        httpSession.setAttribute("importorderlist",importorderlist);
         return "importOrderQuery";
     }
     @RequestMapping(value = "/salesOrder")

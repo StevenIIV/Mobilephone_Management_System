@@ -259,7 +259,7 @@ public class ImportOrder {
      *
      * @mbggenerated
      */
-    public String getAgent() {
+    public int getAgent() {
         return agent;
     }
 

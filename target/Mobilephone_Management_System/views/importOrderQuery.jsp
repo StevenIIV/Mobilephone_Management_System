@@ -27,7 +27,6 @@
                             <th>类型</th>
                             <th>应付金额</th>
                             <th>实付金额</th>
-                            <th>欠款金额</th>
                             <th>优惠金额</th>
                             <th>经办人</th>
                             <th>操作员</th>
@@ -44,15 +43,11 @@
                             <td>2500</td>
                             <td>2500</td>
                             <td>0</td>
-                            <td>0</td>
                             <td>小王</td>
                             <td>admin</td>
                         </tr>
                         </tbody>
                     </table>
-
-
-
 
                     <div class="am-cf">
                         <div class="am-fr">

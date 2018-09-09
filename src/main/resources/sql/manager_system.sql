@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50722
 File Encoding         : 65001
 
-Date: 2018-09-03 20:26:36
+Date: 2018-09-09 22:44:48
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -329,7 +329,7 @@ CREATE TABLE `warehouse` (
   `id` int(255) NOT NULL,
   `goods_id` varchar(255) NOT NULL,
   `num` int(10) NOT NULL,
-  `cost price` int(10) NOT NULL,
+  `cost_price` int(10) NOT NULL,
   `ck` int(255) NOT NULL,
   `xssl` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)

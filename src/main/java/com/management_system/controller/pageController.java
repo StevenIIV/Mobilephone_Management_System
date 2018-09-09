@@ -3,6 +3,8 @@ package com.management_system.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import javax.servlet.http.HttpSession;
+
 @Controller
 public class pageController {
     @RequestMapping(value = "/index")
@@ -18,7 +20,8 @@ public class pageController {
         return "salesManagement";
     }
     @RequestMapping(value = "/warehouseManagement")
-    public String warehouseManagement(){
+    public String warehouseManagement(HttpSession httpSession){
+
         return "warehouseManagement";
     }
     @RequestMapping(value = "/importOrder")

@@ -26,7 +26,7 @@ public class importController {
     private OtherServices otherServices;
 
     @RequestMapping(value = "/import.do",method = RequestMethod.POST)
-    public void importOrder(HttpServletRequest request, HttpServletResponse response) throws UnsupportedEncodingException {
+    public String importOrder(HttpServletRequest request, HttpServletResponse response) throws UnsupportedEncodingException {
         HttpSession httpSession=request.getSession();
         request.setCharacterEncoding("utf-8");
         response.setCharacterEncoding("utf-8");
@@ -42,6 +42,7 @@ public class importController {
         String sfje=request.getParameter("sfje");
         String yhje=request.getParameter("yhje");
         ImportOrder importOrder=new ImportOrder("",otherServices.getManufacturerId(manufacturer),otherServices.getCkId(ck),Integer.valueOf(yfje),Integer.valueOf(sfje),"13","admin",Integer.valueOf(yhje),num);
-
+        importOrderService.insert(importOrder);
+        return "importManagement";
     }
 }

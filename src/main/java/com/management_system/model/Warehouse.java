@@ -192,4 +192,15 @@ public class Warehouse {
     public void setXssl(String xssl) {
         this.xssl = xssl == null ? null : xssl.trim();
     }
+
+    public Warehouse(Integer id, String goodsId, Integer num, Integer costPrice, Integer ck) {
+        this.id = id;
+        this.goodsId = goodsId;
+        this.num = num;
+        this.costPrice = costPrice;
+        this.ck = ck;
+    }
+
+    public Warehouse() {
+    }
 }

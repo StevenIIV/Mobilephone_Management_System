@@ -430,4 +430,7 @@ public class ImportOrder {
         this.yhje = yhje;
         this.num = num;
     }
+
+    public ImportOrder() {
+    }
 }

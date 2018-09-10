@@ -82,17 +82,13 @@
                         %>
                         <tr>
                             <td><input type="checkbox"></td>
-                            <td><%=list.get(i).get(0)%></td>
-                            <td><%=list.get(i).get(1)%></td>
-                            <td><%=list.get(i).get(2)%></td>
-                            <td><%=list.get(i).get(3)%></td>
-                            <td><%=list.get(i).get(4)%></td>
-                            <td><%=list.get(i).get(5)%></td>
-                            <td><%=list.get(i).get(6)%></td>
-                            <td><%=list.get(i).get(7)%></td>
-                            <td><%=list.get(i).get(8)%></td>
-                            <td><%=list.get(i).get(9)%></td>
-                            <td><%=list.get(i).get(10)%></td>
+                            <%
+                                for(int j=0;j<=10;j++){
+                            %>
+                            <td><%=list.get(i).get(j)%></td>
+                            <%
+                                }
+                            %>
                             <td>
                                 <div class="am-btn-toolbar">
                                     <div class="am-btn-group am-btn-group-xs">
@@ -108,9 +104,6 @@
                         %>
                         </tbody>
                     </table>
-
-
-
 
                     <div class="am-cf">
                         <div class="am-fr">

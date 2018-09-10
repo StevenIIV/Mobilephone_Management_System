@@ -6,7 +6,30 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7a64131-a1b2-4fa8-b837-16b2a13453fb" name="Default" comment="" />
+    <list default="true" id="d7a64131-a1b2-4fa8-b837-16b2a13453fb" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/management_system/controller/importController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/management_system/controller/importController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/management_system/model/ImportOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/management_system/model/ImportOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/management_system/model/Warehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/management_system/model/Warehouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/warehouseManagement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/warehouseManagement.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/controller/importController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/controller/importController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/dao/AgentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/dao/AgentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/dao/CkMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/dao/CkMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/dao/CustomerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/dao/CustomerMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/dao/ManufacturerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/dao/ManufacturerMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/model/ImportOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/model/ImportOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/model/Warehouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/model/Warehouse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/service/OtherServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/service/OtherServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/service/impl/OtherServicesImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/service/impl/OtherServicesImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/mapper/AgentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/mapper/AgentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/mapper/CkMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/mapper/CkMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/mapper/CustomerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/mapper/CustomerMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/mapper/ManufacturerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/mapper/ManufacturerMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/views/warehouseManagement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/views/warehouseManagement.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/management_system/controller/importController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/management_system/controller/importController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/management_system/model/ImportOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/management_system/model/ImportOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/management_system/model/Warehouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/management_system/model/Warehouse.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +44,8 @@
       <file leaf-file-name="importController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/controller/importController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="42" column="49" lean-forward="true" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+            <state relative-caret-position="130">
+              <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,10 +82,12 @@
       <replace>salesOrder</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/views/Header.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
@@ -84,7 +109,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/service/WarehouseService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/service/impl/WarehouseServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/WarehouseMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/warehouseManagement.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/dao/SalesOrderMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/SalesOrderMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/service/SalesOrderService.java" />
@@ -100,7 +124,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/views/mainNavigation.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/importOrder.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/salesOrder.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/management_system/model/ImportOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/dao/AgentMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/AgentMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/dao/CkMapper.java" />
@@ -112,6 +135,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/mapper/CustomerMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/service/impl/OtherServicesImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/database/db.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/management_system/model/Warehouse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/management_system/model/ImportOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/warehouseManagement.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/controller/importController.java" />
       </list>
     </option>
@@ -132,17 +158,19 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="949" />
+    <option name="width" value="979" />
+    <option name="height" value="1043" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,13 +261,12 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FileManager" />
+    <property name="last_opened_file_path" value="E:/Mobilephone_Management_System" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -271,7 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.db.test4">
+  <component name="RunManager" selected="Tomcat Server.tomcat">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -495,7 +522,9 @@
       <workItem from="1536410041879" duration="10065000" />
       <workItem from="1536503611712" duration="5840000" />
       <workItem from="1536555682038" duration="1967000" />
-      <workItem from="1536559005962" duration="7016000" />
+      <workItem from="1536559005962" duration="8628000" />
+      <workItem from="1536569620273" duration="901000" />
+      <workItem from="1536570585353" duration="53000" />
     </task>
     <servers />
   </component>
@@ -532,10 +561,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78919000" />
+    <option name="totallyTimeSpent" value="81485000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1618" height="877" extended-state="7" />
+    <frame x="-8" y="-8" width="1618" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -558,12 +587,12 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993758" weight="0.31764707" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993758" weight="0.30718955" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20973782" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19101124" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="Learn" order="6" />
@@ -665,20 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/model/Warehouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="193" column="5" lean-forward="true" selection-start-line="193" selection-start-column="5" selection-end-line="193" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/WarehouseMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/dao/WarehouseMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="535">
@@ -693,24 +708,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/warehouse.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="432" selection-start-line="432" selection-end-line="432" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/model/SalesOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1771">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -819,39 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/warehouseManagement.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-223">
-          <caret line="65" column="40" lean-forward="true" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/importOrderQuery.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="47" column="30" lean-forward="true" selection-start-line="41" selection-start-column="28" selection-end-line="47" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/salesOrderQuery.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-253">
-          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/controller/pageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <element signature="method#warehouseManagement#0;class#pageController#0" />
-            <element signature="method#importOrderQuery#0;class#pageController#0" />
-            <element signature="method#salesOrderQuery#0;class#pageController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/mainNavigation.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -863,9 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -876,27 +841,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/importOrder.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="106" column="24" lean-forward="true" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/dao/AgentMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="47" column="58" lean-forward="true" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/model/ImportOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="421" column="148" selection-start-line="421" selection-start-column="148" selection-end-line="421" selection-end-column="148" />
-          <folding>
-            <element signature="method#ImportOrder#0;class#ImportOrder#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -953,12 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
           <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-          <folding>
-            <element signature="e#1382#1383#0" expanded="true" />
-            <element signature="e#1427#1428#0" expanded="true" />
-            <element signature="e#1719#1720#0" expanded="true" />
-            <element signature="e#1743#1744#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -980,17 +922,83 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="64" column="65" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
-          <folding>
-            <element signature="e#2315#2316#0" expanded="true" />
-            <element signature="e#2381#2382#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/warehouse.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/WarehouseMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/model/Warehouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="204" column="5" lean-forward="true" selection-start-line="204" selection-start-column="5" selection-end-line="204" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/model/ImportOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="433" column="26" selection-start-line="433" selection-start-column="26" selection-end-line="433" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/model/SalesOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="781" column="7" lean-forward="true" selection-start-line="781" selection-start-column="7" selection-end-line="781" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/controller/pageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/salesOrderQuery.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="36" column="113" lean-forward="true" selection-start-line="36" selection-start-column="113" selection-end-line="36" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/importOrder.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="106" column="24" lean-forward="true" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/warehouseManagement.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="90" column="30" lean-forward="true" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/importOrderQuery.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/controller/importController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="42" column="49" lean-forward="true" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+        <state relative-caret-position="130">
+          <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

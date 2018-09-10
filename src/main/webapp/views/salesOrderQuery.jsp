@@ -1,4 +1,4 @@
-<%--
+<%@ page import="java.util.List" %><%--
   Created by IntelliJ IDEA.
   User: admin
   Date: 2018-09-08
@@ -27,31 +27,31 @@
                             <th>类型</th>
                             <th>应付金额</th>
                             <th>实付金额</th>
-                            <th>欠款金额</th>
                             <th>优惠金额</th>
                             <th>经办人</th>
                             <th>操作员</th>
                         </tr>
                         </thead>
                         <tbody>
+                        <%
+                            List<List<Object>> list= (List<List<Object>>) session.getAttribute("salesorderlist");
+                            for(int i=0;i<list.size();i++){
+                        %>
                         <tr>
                             <td><input type="checkbox"></td>
-                            <td>普通客户</td>
-                            <td>2006-12-25</td>
-                            <td>手机</td>
-                            <td>XS060605010001</td>
-                            <td>商品销售付款</td>
-                            <td>3430</td>
-                            <td>3430</td>
-                            <td>0</td>
-                            <td>0</td>
-                            <td>小王</td>
-                            <td>admin</td>
+                            <%
+                                for(int j=0;j<=9;j++){
+                            %>
+                            <td><%=list.get(i).get(j)%></td>
+                            <%
+                                }
+                            %>
                         </tr>
+                        <%
+                            }
+                        %>
                         </tbody>
                     </table>
-
-
 
 
                     <div class="am-cf">

@@ -3,6 +3,7 @@ package com.database;
 import com.management_system.dao.UserMapper;
 import com.management_system.model.GoodsInf;
 import com.management_system.model.ImportOrder;
+import com.management_system.model.SalesOrder;
 import com.management_system.model.Warehouse;
 import com.management_system.service.*;
 import com.management_system.service.impl.*;
@@ -30,6 +31,7 @@ public class db {
     private ImportOrderService importOrderService;
     @Autowired
     private OtherServices otherServices;
+    @Autowired SalesOrderService salesOrderService;
     @Test
     public void testSelectUser() throws Exception {
         System.out.println(userService.getUser(1).getUsername());
@@ -40,22 +42,22 @@ public class db {
     }
     @Test
     public void test3(){
-        List<ImportOrder> list=importOrderService.getAllImportOrder();
-        List<List<Object>> importorderlist=new ArrayList<>();
+        List<SalesOrder> list=salesOrderService.getAllSalesOrder();
+        List<List<Object>> salesorderlist=new ArrayList<>();
         for(int i=0;i<list.size();i++){
-            ImportOrder importOrder=list.get(i);
+            SalesOrder salesOrder=list.get(i);
             List<Object> l=new ArrayList<>();
-            l.add(otherServices.getManufacturer(importOrder.getManufacturer()).getGhsmc());
-            l.add(importOrder.getDate());
+            l.add(otherServices.getCustomer(salesOrder.getCustomer()).getCustomer());
+            l.add(salesOrder.getDate());
             l.add("手机");
-            l.add(importOrder.getId());
+            l.add(salesOrder.getId());
             l.add("进货支付");
-            l.add(importOrder.getYfje());
-            l.add(importOrder.getSfje());
-            l.add(importOrder.getYfje());
-            l.add(otherServices.getAgent(Integer.valueOf(importOrder.getAgent())).getYgmc());
-            l.add(importOrder.getCzy());
-            importorderlist.add(l);
+            l.add(salesOrder.getYfje());
+            l.add(salesOrder.getSfje());
+            l.add(salesOrder.getYfje());
+            l.add(otherServices.getAgent(Integer.valueOf(salesOrder.getAgent())).getYgmc());
+            l.add(salesOrder.getCzy());
+            salesorderlist.add(l);
         }
     }
     @Test

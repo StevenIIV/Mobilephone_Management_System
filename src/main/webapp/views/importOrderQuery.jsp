@@ -1,4 +1,4 @@
-<%--
+<%@ page import="java.util.List" %><%--
   Created by IntelliJ IDEA.
   User: admin
   Date: 2018-09-08
@@ -33,19 +33,23 @@
                         </tr>
                         </thead>
                         <tbody>
+                        <%
+                            List<List<Object>> list= (List<List<Object>>) session.getAttribute("importorderlist");
+                            for(int i=0;i<list.size();i++){
+                        %>
                         <tr>
                             <td><input type="checkbox"></td>
-                            <td>普通供货商</td>
-                            <td>2010-08-19</td>
-                            <td>手机</td>
-                            <td>CJ100819010001</td>
-                            <td>进货支付</td>
-                            <td>2500</td>
-                            <td>2500</td>
-                            <td>0</td>
-                            <td>小王</td>
-                            <td>admin</td>
+                            <%
+                                for(int j=0;j<=9;j++){
+                            %>
+                            <td><%=list.get(i).get(j)%></td>
+                            <%
+                                }
+                            %>
                         </tr>
+                        <%
+                            }
+                        %>
                         </tbody>
                     </table>
 

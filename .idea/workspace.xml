@@ -21,8 +21,8 @@
       <file leaf-file-name="pageController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/controller/pageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="93" />
+            <state relative-caret-position="480">
+              <caret line="113" column="48" selection-start-line="113" selection-start-column="34" selection-end-line="113" selection-end-column="48" />
               <folding>
                 <element signature="method#warehouseManagement#0;class#pageController#0" />
               </folding>
@@ -30,15 +30,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/database/db.java">
+      <file leaf-file-name="importOrderQuery.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/importOrderQuery.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="47" column="91" lean-forward="true" selection-start-line="47" selection-start-column="91" selection-end-line="47" selection-end-column="91" />
-              <folding>
-                <element signature="e#2236#2237#0" expanded="true" />
-                <element signature="e#2257#2258#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="430">
+              <caret line="47" column="30" lean-forward="true" selection-start-line="41" selection-start-column="28" selection-end-line="47" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="salesOrderQuery.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/salesOrderQuery.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -65,9 +70,11 @@
       <find>image</find>
       <find>eee</find>
       <find>warehouselist.get(i)</find>
+      <find>importOrder</find>
     </findStrings>
     <replaceStrings>
       <replace>l</replace>
+      <replace>salesOrder</replace>
     </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -97,7 +104,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/views/salesManagement.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/importOrder.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/salesOrder.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/salesOrderQuery.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/warehouse.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/mainNavigation.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/controller/userController.java" />
@@ -117,13 +123,14 @@
         <option value="$PROJECT_DIR$/src/main/resources/mapper/ImportOrderMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/service/ImportOrderService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/service/impl/ImportOrderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/importOrderQuery.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/model/ImportOrder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/management_system/controller/pageController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/database/db.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-generator.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/service/impl/OtherServicesImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/service/OtherServices.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/database/db.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/management_system/controller/pageController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/importOrderQuery.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/salesOrderQuery.jsp" />
       </list>
     </option>
   </component>
@@ -143,17 +150,17 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="978" />
-    <option name="height" value="1041" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,33 +201,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="management_system" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mobilephone_Management_System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mobilephone_Management_System" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="management_system" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mobilephone_Management_System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mobilephone_Management_System" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="management_system" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mobilephone_Management_System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mobilephone_Management_System" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="management_system" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -228,25 +208,7 @@
               <item name="Mobilephone_Management_System" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="management_system" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mobilephone_Management_System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mobilephone_Management_System" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mobilephone_Management_System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mobilephone_Management_System" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mobilephone_Management_System" type="b2602c69:ProjectViewProjectNode" />
@@ -288,7 +250,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -328,7 +289,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.db.test3">
+  <component name="RunManager" selected="Tomcat Server.tomcat">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -552,16 +513,11 @@
       <workItem from="1536410041879" duration="10065000" />
       <workItem from="1536503611712" duration="5840000" />
       <workItem from="1536555682038" duration="1967000" />
+      <workItem from="1536559005962" duration="1535000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="db_test3 - 2018.09.09 at 23h 31m 10s.xml">
-      <configuration name="db.test3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="db_test3 - 2018.09.09 at 23h 32m 47s.xml">
-      <configuration name="db.test3" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="db_test3 - 2018.09.09 at 23h 34m 11s.xml">
       <configuration name="db.test3" configurationId="JUnit" />
     </history-entry>
@@ -586,9 +542,15 @@
     <history-entry file="db_test3 - 2018.09.10 at 13h 54m 26s.xml">
       <configuration name="db.test3" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="db_test3 - 2018.09.10 at 14h 16m 29s.xml">
+      <configuration name="db.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="db_test3 - 2018.09.10 at 14h 18m 20s.xml">
+      <configuration name="db.test3" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71903000" />
+    <option name="totallyTimeSpent" value="73438000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1618" height="877" extended-state="6" />
@@ -770,20 +732,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/salesOrderQuery.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/salesManagement.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="36" column="183" selection-start-line="36" selection-start-column="177" selection-end-line="36" selection-end-column="183" />
-          <folding>
-            <element signature="n#style#0;n#td#4;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -847,13 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="432" selection-start-line="432" selection-end-line="432" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/warehouseManagement.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="65" column="40" lean-forward="true" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -959,9 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -972,21 +914,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/importOrderQuery.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/service/impl/ImportOrderServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-          <folding>
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -994,16 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="265" column="7" lean-forward="true" selection-start-line="265" selection-start-column="7" selection-end-line="265" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/controller/pageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="93" />
-          <folding>
-            <element signature="method#warehouseManagement#0;class#pageController#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1025,28 +946,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/warehouseManagement.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-223">
+          <caret line="65" column="40" lean-forward="true" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/database/db.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
           <folding>
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#2236#2237#0" expanded="true" />
+            <element signature="e#2308#2309#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/service/OtherServices.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        <state relative-caret-position="161">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/database/db.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/controller/pageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="47" column="91" lean-forward="true" selection-start-line="47" selection-start-column="91" selection-end-line="47" selection-end-column="91" />
+        <state relative-caret-position="480">
+          <caret line="113" column="48" selection-start-line="113" selection-start-column="34" selection-end-line="113" selection-end-column="48" />
           <folding>
-            <element signature="e#2236#2237#0" expanded="true" />
-            <element signature="e#2257#2258#0" expanded="true" />
+            <element signature="method#warehouseManagement#0;class#pageController#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/importOrderQuery.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="47" column="30" lean-forward="true" selection-start-line="41" selection-start-column="28" selection-end-line="47" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/salesOrderQuery.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
         </state>
       </provider>
     </entry>

@@ -2,6 +2,7 @@ package com.management_system.controller;
 
 import com.management_system.model.GoodsInf;
 import com.management_system.model.ImportOrder;
+import com.management_system.model.SalesOrder;
 import com.management_system.model.Warehouse;
 import com.management_system.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -92,7 +93,25 @@ public class pageController {
         return "salesOrder";
     }
     @RequestMapping(value = "/salesOrderQuery")
-    public String salesOrderQuery(){
+    public String salesOrderQuery(HttpSession httpSession){
+        List<SalesOrder> list=salesOrderService.getAllSalesOrder();
+        List<List<Object>> salesorderlist=new ArrayList<>();
+        for(int i=0;i<list.size();i++){
+            SalesOrder salesOrder=list.get(i);
+            List<Object> l=new ArrayList<>();
+            l.add(otherServices.getCustomer(salesOrder.getCustomer()).getCustomer());
+            l.add(salesOrder.getDate());
+            l.add("手机");
+            l.add(salesOrder.getId());
+            l.add("商品销售付款");
+            l.add(salesOrder.getYfje());
+            l.add(salesOrder.getSfje());
+            l.add(salesOrder.getYfje());
+            l.add(otherServices.getAgent(Integer.valueOf(salesOrder.getAgent())).getYgmc());
+            l.add(salesOrder.getCzy());
+            salesorderlist.add(l);
+        }
+        httpSession.setAttribute("salesorderlist",salesorderlist);
         return "salesOrderQuery";
     }
     @RequestMapping(value = "/warehouse")

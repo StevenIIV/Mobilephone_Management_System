@@ -62,6 +62,6 @@ public class db {
     }
     @Test
     public void test4(){
-        System.out.println(otherServices.getAgent(13).getYgmc());
+        System.out.println(otherServices.getManufacturerId("普通供货商"));
     }
 }

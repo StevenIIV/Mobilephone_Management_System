@@ -50,4 +50,6 @@ public interface CustomerMapper {
      * @mbggenerated
      */
     int updateByPrimaryKey(Customer record);
+
+    int getCustomerId(String name);
 }

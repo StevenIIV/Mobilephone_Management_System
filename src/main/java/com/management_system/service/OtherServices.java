@@ -10,4 +10,8 @@ public interface OtherServices {
     public Agent getAgent(int id);
     public Customer getCustomer(int id);
     public Manufacturer getManufacturer(int id);
+    int getCkId(String name);
+    int getManufacturerId(String name);
+    int getAgentId(String name);
+    int getCustomerId(String name);
 }

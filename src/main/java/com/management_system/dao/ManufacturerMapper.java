@@ -50,4 +50,6 @@ public interface ManufacturerMapper {
      * @mbggenerated
      */
     int updateByPrimaryKey(Manufacturer record);
+
+    int getManufacturerId(String name);
 }

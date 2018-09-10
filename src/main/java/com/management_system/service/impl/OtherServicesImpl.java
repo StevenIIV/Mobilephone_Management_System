@@ -41,4 +41,24 @@ public class OtherServicesImpl implements OtherServices {
     public Manufacturer getManufacturer(int id) {
         return manufacturerMapper.selectByPrimaryKey(id);
     }
+
+    @Override
+    public int getCkId(String name) {
+        return ckMapper.getCkId(name);
+    }
+
+    @Override
+    public int getManufacturerId(String name) {
+        return manufacturerMapper.getManufacturerId(name);
+    }
+
+    @Override
+    public int getAgentId(String name) {
+        return agentMapper.getAgentId(name);
+    }
+
+    @Override
+    public int getCustomerId(String name) {
+        return customerMapper.getCustomerId(name);
+    }
 }

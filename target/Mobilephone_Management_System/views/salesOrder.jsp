@@ -107,6 +107,26 @@
                         </div>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <div class="am-form-group">
+                            <div style="float:left;height: 37px;width: 65px;line-height: 37px;text-align: center;vertical-align: middle;"><label>应付金额</label></div>
+                            <div style="float:left;margin-left: 20px;width: 200px"><input type="text" name="yfje"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="am-form-group">
+                            <div style="float:left;height: 37px;width: 65px;line-height: 37px;text-align: center;vertical-align: middle;"><label>实付金额</label></div>
+                            <div style="float:left;margin-left: 20px;width: 200px"><input type="text" name="sfje"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="am-form-group">
+                            <div style="float:left;height: 37px;width: 65px;line-height: 37px;text-align: center;vertical-align: middle;"><label><cen优惠金额</label></div>
+                            <div style="float:left;margin-left: 20px;width: 200px"><input type="text" name="yhje"></div>
+                        </div>
+                    </td>
+                </tr>
             </table>
             <p><button type="submit" class="am-btn am-btn-default">提交</button></p>
         </center>

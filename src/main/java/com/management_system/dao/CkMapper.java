@@ -50,4 +50,6 @@ public interface CkMapper {
      * @mbggenerated
      */
     int updateByPrimaryKey(Ck record);
+
+    int getCkId(String name);
 }

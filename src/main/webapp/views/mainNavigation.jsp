@@ -45,17 +45,17 @@
                     <li>
                         <a href="#">
                             <i class="am-icon-angle-right"></i>
-                            <span>文字表格</span>
+                            <span>供应商统计</span>
                             <i class="am-icon-star tpl-left-nav-content-ico am-fr am-margin-right"></i>
                         </a>
 
                         <a href="#">
                             <i class="am-icon-angle-right"></i>
-                            <span>图片表格</span>
+                            <span>商品采购统计</span>
                         </a>
                         <a href="#">
                             <i class="am-icon-angle-right"></i>
-                            <span>消息列表</span>
+                            <span>业务员统计</span>
                         </a>
                     </li>
                 </ul>

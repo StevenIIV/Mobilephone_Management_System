@@ -50,4 +50,6 @@ public interface AgentMapper {
      * @mbggenerated
      */
     int updateByPrimaryKey(Agent record);
+
+    int getAgentId(String name);
 }

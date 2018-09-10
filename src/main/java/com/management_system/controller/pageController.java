@@ -80,7 +80,7 @@ public class pageController {
             l.add(importOrder.getYfje());
             l.add(importOrder.getSfje());
             l.add(importOrder.getYfje());
-            l.add(otherServices.getAgent(importOrder.getAgent()).getYgmc());
+            l.add(otherServices.getAgent(Integer.valueOf(importOrder.getAgent())).getYgmc());
             l.add(importOrder.getCzy());
             importorderlist.add(l);
         }

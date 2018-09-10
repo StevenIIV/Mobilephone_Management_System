@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50722
 File Encoding         : 65001
 
-Date: 2018-09-09 22:44:48
+Date: 2018-09-10 13:54:49
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -21,7 +21,6 @@ SET FOREIGN_KEY_CHECKS=0;
 DROP TABLE IF EXISTS `agent`;
 CREATE TABLE `agent` (
   `id` int(255) NOT NULL,
-  `ygid` varchar(255) NOT NULL,
   `ygmc` varchar(255) NOT NULL,
   `xsje` varchar(255) DEFAULT NULL,
   `thje` varchar(255) DEFAULT NULL,
@@ -34,9 +33,9 @@ CREATE TABLE `agent` (
 -- ----------------------------
 -- Records of agent
 -- ----------------------------
-INSERT INTO `agent` VALUES ('286', '13', '小王', '0', '0', '0', '0', 'admin');
-INSERT INTO `agent` VALUES ('287', '14', '李总', '0', '0', '0', '0', 'admin');
-INSERT INTO `agent` VALUES ('288', '15', '小刘', '0', '0', '0', '0', 'admin');
+INSERT INTO `agent` VALUES ('13', '小王', '0', '0', '0', '0', 'admin');
+INSERT INTO `agent` VALUES ('14', '李总', '0', '0', '0', '0', 'admin');
+INSERT INTO `agent` VALUES ('15', '小刘', '0', '0', '0', '0', 'admin');
 
 -- ----------------------------
 -- Table structure for ck

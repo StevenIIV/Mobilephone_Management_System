@@ -2,6 +2,7 @@ package com.database;
 
 import com.management_system.dao.UserMapper;
 import com.management_system.model.GoodsInf;
+import com.management_system.model.ImportOrder;
 import com.management_system.model.Warehouse;
 import com.management_system.service.*;
 import com.management_system.service.impl.*;
@@ -25,6 +26,10 @@ public class db {
     private GoodsinfService goodsinfService;
     @Autowired
     private WarehouseService warehouseService;
+    @Autowired
+    private ImportOrderService importOrderService;
+    @Autowired
+    private OtherServices otherServices;
     @Test
     public void testSelectUser() throws Exception {
         System.out.println(userService.getUser(1).getUsername());
@@ -35,25 +40,26 @@ public class db {
     }
     @Test
     public void test3(){
-        List<Warehouse> list=warehouseService.getAllWarehouse();
-        List<List<Object>> warehouselist=new ArrayList<>();
+        List<ImportOrder> list=importOrderService.getAllImportOrder();
+        List<List<Object>> importorderlist=new ArrayList<>();
         for(int i=0;i<list.size();i++){
-            Warehouse warehouse=list.get(i);
-            String good_id=warehouse.getGoodsId();
-            GoodsInf goodsInf=goodsinfService.getGoodsinf(good_id);
+            ImportOrder importOrder=list.get(i);
             List<Object> l=new ArrayList<>();
-            l.add(good_id);
-            l.add(goodsInf.getGoodsName());
-            l.add(warehouse.getNum());
-            l.add(warehouse.getXssl());
-            l.add(goodsInf.getPreInPrice());
-            l.add(goodsInf.getPreInPrice());
-            l.add(goodsInf.getPreInPrice());
-            l.add(goodsInf.getUnit());
-            l.add(goodsInf.getType());
-            l.add(goodsInf.getColor());
-            l.add(goodsInf.getManufacturer());
-            warehouselist.add(l);
+            l.add(otherServices.getManufacturer(importOrder.getManufacturer()).getGhsmc());
+            l.add(importOrder.getDate());
+            l.add("手机");
+            l.add(importOrder.getId());
+            l.add("进货支付");
+            l.add(importOrder.getYfje());
+            l.add(importOrder.getSfje());
+            l.add(importOrder.getYfje());
+            l.add(otherServices.getAgent(Integer.valueOf(importOrder.getAgent())).getYgmc());
+            l.add(importOrder.getCzy());
+            importorderlist.add(l);
         }
+    }
+    @Test
+    public void test4(){
+        System.out.println(otherServices.getAgent(13).getYgmc());
     }
 }

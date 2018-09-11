@@ -419,10 +419,11 @@ public class ImportOrder {
         this.th = th == null ? null : th.trim();
     }
 
-    public ImportOrder(String id, Integer manufacturer, Integer ck, Integer yfje, Integer sfje, String agent, String czy, Integer yhje, String num) {
+    public ImportOrder(String id, Integer manufacturer, Integer ck, Date date, Integer yfje, Integer sfje, String agent, String czy, Integer yhje, String num) {
         this.id = id;
         this.manufacturer = manufacturer;
         this.ck = ck;
+        this.date = date;
         this.yfje = yfje;
         this.sfje = sfje;
         this.agent = agent;

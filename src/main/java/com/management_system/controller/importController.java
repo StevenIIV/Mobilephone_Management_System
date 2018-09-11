@@ -15,6 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.UnsupportedEncodingException;
+import java.util.Date;
 
 @Controller
 public class importController {
@@ -41,7 +42,8 @@ public class importController {
         String yfje=request.getParameter("yfje");
         String sfje=request.getParameter("sfje");
         String yhje=request.getParameter("yhje");
-        ImportOrder importOrder=new ImportOrder(id,otherServices.getManufacturerId(manufacturer),otherServices.getCkId(ck),Integer.valueOf(yfje),Integer.valueOf(sfje),"13","admin",Integer.valueOf(yhje),num);
+
+        ImportOrder importOrder=new ImportOrder(id,otherServices.getManufacturerId(manufacturer),otherServices.getCkId(ck),new Date(),Integer.valueOf(yfje),Integer.valueOf(sfje),"13","admin",Integer.valueOf(yhje),num);
         importOrderService.insert(importOrder);
         return "redirect:importManagement";
     }

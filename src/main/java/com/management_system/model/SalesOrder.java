@@ -803,16 +803,18 @@ public class SalesOrder {
         this.payno = payno == null ? null : payno.trim();
     }
 
-    public SalesOrder(String id, Integer customer, Integer ck, String yfje, String sfje, String agent, String czy, String yhje) {
+    public SalesOrder(String id, Integer customer, Integer ck, Date date, String yfje, String sfje, String agent, String czy, String yhje) {
         this.id = id;
         this.customer = customer;
         this.ck = ck;
+        this.date = date;
         this.yfje = yfje;
         this.sfje = sfje;
         this.agent = agent;
         this.czy = czy;
         this.yhje = yhje;
     }
+
     public SalesOrder(){
 
     }

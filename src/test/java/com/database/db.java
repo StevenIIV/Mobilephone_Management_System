@@ -15,6 +15,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.apache.log4j.Logger;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -62,6 +63,6 @@ public class db {
     }
     @Test
     public void test4(){
-        System.out.println(otherServices.getManufacturerId("普通供货商"));
+        System.out.println(new Date());
     }
 }

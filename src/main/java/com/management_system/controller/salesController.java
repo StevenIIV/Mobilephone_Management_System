@@ -14,6 +14,7 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.UnsupportedEncodingException;
+import java.util.Date;
 
 @Controller
 public class salesController {
@@ -42,7 +43,7 @@ public class salesController {
         String yfje=request.getParameter("yfje");
         String sfje=request.getParameter("sfje");
         String yhje=request.getParameter("yhje");
-        SalesOrder salesOrder=new SalesOrder(id,otherServices.getCustomerId(customer),otherServices.getCkId(ck),yfje,sfje,"13","admin",yhje);
+        SalesOrder salesOrder=new SalesOrder(id,otherServices.getCustomerId(customer),otherServices.getCkId(ck),new Date(),yfje,sfje,"13","admin",yhje);
         salesOrderService.insert(salesOrder);
         return "redirect:salesManagement";
     }

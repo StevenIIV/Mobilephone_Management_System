@@ -43,7 +43,7 @@
                 </a>
                 <ul class="tpl-left-nav-sub-menu" style="display: block;">
                     <li>
-                        <a href="#">
+                        <a href="manufacturerStatistics">
                             <i class="am-icon-angle-right"></i>
                             <span>供应商统计</span>
                             <i class="am-icon-star tpl-left-nav-content-ico am-fr am-margin-right"></i>

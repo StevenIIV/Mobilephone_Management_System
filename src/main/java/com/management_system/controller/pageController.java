@@ -118,4 +118,26 @@ public class pageController {
     public String warehouse(){
         return "warehouse";
     }
+    @RequestMapping(value = "/manufacturerStatistics")
+    public String manufacturerStatistics(HttpSession httpSession){
+        List<ImportOrder> list=importOrderService.getAllImportOrder();
+        List<List<Object>> importorderlist=new ArrayList<>();
+        for(int i=0;i<list.size();i++){
+            ImportOrder importOrder=list.get(i);
+            List<Object> l=new ArrayList<>();
+            l.add(otherServices.getManufacturer(importOrder.getManufacturer()).getGhsmc());
+            l.add(importOrder.getDate());
+            l.add("手机");
+            l.add(importOrder.getId());
+            l.add("进货支付");
+            l.add(importOrder.getYfje());
+            l.add(importOrder.getSfje());
+            l.add(importOrder.getYfje());
+            l.add(otherServices.getAgent(Integer.valueOf(importOrder.getAgent())).getYgmc());
+            l.add(importOrder.getCzy());
+            importorderlist.add(l);
+        }
+        httpSession.setAttribute("importorderlist",importorderlist);
+        return "manufacturerStatistics";
+    }
 }

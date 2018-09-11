@@ -6,30 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7a64131-a1b2-4fa8-b837-16b2a13453fb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/management_system/controller/importController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/management_system/controller/importController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/management_system/model/ImportOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/management_system/model/ImportOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/management_system/model/Warehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/management_system/model/Warehouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/warehouseManagement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/warehouseManagement.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/controller/importController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/controller/importController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/dao/AgentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/dao/AgentMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/dao/CkMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/dao/CkMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/dao/CustomerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/dao/CustomerMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/dao/ManufacturerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/dao/ManufacturerMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/model/ImportOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/model/ImportOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/model/Warehouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/model/Warehouse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/service/OtherServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/service/OtherServices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/service/impl/OtherServicesImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/com/management_system/service/impl/OtherServicesImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/mapper/AgentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/mapper/AgentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/mapper/CkMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/mapper/CkMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/mapper/CustomerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/mapper/CustomerMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/mapper/ManufacturerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/WEB-INF/classes/mapper/ManufacturerMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mobilephone_Management_System/views/warehouseManagement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mobilephone_Management_System/views/warehouseManagement.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/management_system/controller/importController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/management_system/controller/importController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/management_system/model/ImportOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/management_system/model/ImportOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/management_system/model/Warehouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/management_system/model/Warehouse.class" afterDir="false" />
-    </list>
+    <list default="true" id="d7a64131-a1b2-4fa8-b837-16b2a13453fb" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,13 +18,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="importController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/controller/importController.java">
+      <file leaf-file-name="SalesOrder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/model/SalesOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+            <state relative-caret-position="629">
+              <caret line="818" column="1" lean-forward="true" selection-start-line="818" selection-start-column="1" selection-end-line="818" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#20585#20620#0" />
               </folding>
             </state>
           </provider>
@@ -83,12 +60,11 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/views/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/mainHeader.jsp" />
@@ -104,7 +80,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/views/warehouse.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/controller/userController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/management_system/controller/salesController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/dao/WarehouseMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/service/WarehouseService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/service/impl/WarehouseServiceImpl.java" />
@@ -122,8 +97,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/views/salesOrderQuery.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/controller/pageController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/mainNavigation.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/importOrder.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/salesOrder.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/dao/AgentMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/AgentMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/dao/CkMapper.java" />
@@ -138,7 +111,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/model/Warehouse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/model/ImportOrder.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/warehouseManagement.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/importOrder.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/salesOrder.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/controller/importController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/management_system/controller/salesController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/management_system/model/SalesOrder.java" />
       </list>
     </option>
   </component>
@@ -158,10 +135,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="949" />
-    <option name="width" value="979" />
-    <option name="height" value="1043" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="945" />
+    <option name="width" value="984" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -169,8 +146,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,7 +196,24 @@
               <item name="Mobilephone_Management_System" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="management_system" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mobilephone_Management_System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mobilephone_Management_System" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mobilephone_Management_System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mobilephone_Management_System" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mobilephone_Management_System" type="b2602c69:ProjectViewProjectNode" />
@@ -235,32 +230,10 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Mobilephone_Management_System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mobilephone_Management_System" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mobilephone_Management_System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mobilephone_Management_System" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mobilephone_Management_System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mobilephone_Management_System" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -525,6 +498,10 @@
       <workItem from="1536559005962" duration="8628000" />
       <workItem from="1536569620273" duration="901000" />
       <workItem from="1536570585353" duration="53000" />
+      <workItem from="1536570886607" duration="112000" />
+      <workItem from="1536585815089" duration="201000" />
+      <workItem from="1536641466169" duration="291000" />
+      <workItem from="1536666891904" duration="3939000" />
     </task>
     <servers />
   </component>
@@ -561,7 +538,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81485000" />
+    <option name="totallyTimeSpent" value="86028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1618" height="877" extended-state="6" />
@@ -592,7 +569,7 @@
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19101124" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21098627" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="Learn" order="6" />
@@ -701,13 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/controller/salesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
@@ -761,13 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-161">
           <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ImportOrderMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -834,13 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/salesOrder.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="109" column="20" lean-forward="true" selection-start-line="109" selection-start-column="20" selection-end-line="109" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/dao/AgentMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -848,24 +804,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AgentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CkMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/dao/CkMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="53" column="29" lean-forward="true" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -897,24 +839,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/service/impl/OtherServicesImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/service/impl/WarehouseServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/service/OtherServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -939,45 +867,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/model/Warehouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="204" column="5" lean-forward="true" selection-start-line="204" selection-start-column="5" selection-end-line="204" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/model/ImportOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="433" column="26" selection-start-line="433" selection-start-column="26" selection-end-line="433" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/model/SalesOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="781" column="7" lean-forward="true" selection-start-line="781" selection-start-column="7" selection-end-line="781" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/controller/pageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/salesOrderQuery.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="36" column="113" lean-forward="true" selection-start-line="36" selection-start-column="113" selection-end-line="36" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/importOrder.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="106" column="24" lean-forward="true" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -995,12 +888,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AgentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/service/OtherServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/service/impl/OtherServicesImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="764">
+          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/dao/CkMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="53" column="29" lean-forward="true" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/importOrder.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/controller/pageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="64" column="43" lean-forward="true" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+          <folding>
+            <element signature="method#warehouseManagement#0;class#pageController#0" />
+            <element signature="method#importOrderQuery#0;class#pageController#0" />
+            <element signature="method#salesOrderQuery#0;class#pageController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/salesOrder.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="92" column="122" selection-start-line="92" selection-start-column="108" selection-end-line="92" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/model/Warehouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="204" column="5" lean-forward="true" selection-start-line="204" selection-start-column="5" selection-end-line="204" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/controller/importController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+        <state relative-caret-position="474">
+          <caret line="43" column="170" selection-start-line="43" selection-start-column="168" selection-end-line="43" selection-end-column="170" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/model/ImportOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="435" column="1" lean-forward="true" selection-start-line="435" selection-start-column="1" selection-end-line="435" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ImportOrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="67" column="44" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/controller/salesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="31" column="57" lean-forward="true" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/model/SalesOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="818" column="1" lean-forward="true" selection-start-line="818" selection-start-column="1" selection-end-line="818" selection-end-column="1" />
+          <folding>
+            <element signature="e#20585#20620#0" />
           </folding>
         </state>
       </provider>

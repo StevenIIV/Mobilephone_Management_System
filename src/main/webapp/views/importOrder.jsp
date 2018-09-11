@@ -48,6 +48,14 @@
                     </td>
                 </tr>
                 <tr>
+                    <th colspan="3">
+                        <div class="am-form-group">
+                            <div style="float:left;height: 37px;width: 65px; line-height: 37px;text-align: center;vertical-align: middle;"><label>订单编号</label></div>
+                            <div style="float:left;margin-left: 20px;width:400px;"><input type="text" name="id"></div>
+                        </div>
+                    </th>
+                </tr>
+                <tr>
                     <th colspan="2">
                         <div class="am-form-group">
                             <div style="float:left;height: 37px;width: 65px; line-height: 37px;text-align: center;vertical-align: middle;"><label>商品名称</label></div>
@@ -112,7 +120,7 @@
                     </td>
                     <td>
                         <div class="am-form-group">
-                            <div style="float:left;height: 37px;width: 65px;line-height: 37px;text-align: center;vertical-align: middle;"><label><cen优惠金额</label></div>
+                            <div style="float:left;height: 37px;width: 65px;line-height: 37px;text-align: center;vertical-align: middle;"><label>优惠金额</label></div>
                             <div style="float:left;margin-left: 20px;width: 200px"><input type="text" name="yhje"></div>
                         </div>
                     </td>

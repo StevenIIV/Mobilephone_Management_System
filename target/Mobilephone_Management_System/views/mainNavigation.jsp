@@ -6,33 +6,42 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<script>
+    window.onload=function(){
+        var page=${page};
+        if(page==1)  document.getElementById("index").className+=" active";
+        else if(page==2) document.getElementById("importManagement").className+=" active";
+        else if(page==3) document.getElementById("salesManagement").className+=" active";
+        else if(page==4) document.getElementById("warehouse").className+=" active";
+        else if(page==5) document.getElementById("manufacturerStatistics").className+=" active";
+    }
+</script>
 <div class="tpl-left-nav tpl-left-nav-hover">
     <div class="tpl-left-nav-title">列表</div>
     <div class="tpl-left-nav-list">
         <ul class="tpl-left-nav-menu">
             <li class="tpl-left-nav-item">
-                <a href="index" class="nav-link active">
+                <a id="index" href="index" class="nav-link">
                     <i class="am-icon-home"></i>
                     <span>首页</span>
                 </a>
             </li>
             <li class="tpl-left-nav-item">
-                <a href="importManagement" class="nav-link tpl-left-nav-link-list">
+                <a id="importManagement" href="importManagement" class="nav-link tpl-left-nav-link-list">
                     <i class="am-icon-user-plus"></i>
                     <span>进货管理</span>
                 </a>
             </li>
             <li class="tpl-left-nav-item">
-                <a href="salesManagement" class="nav-link tpl-left-nav-link-list">
+                <a id="salesManagement" href="salesManagement" class="nav-link tpl-left-nav-link-list">
                     <i class="am-icon-line-chart"></i>
                     <span>销售管理</span>
                 </a>
             </li>
             <li class="tpl-left-nav-item">
-                <a href="warehouse" class="nav-link tpl-left-nav-link-list">
+                <a id="warehouse" href="warehouse" class="nav-link tpl-left-nav-link-list">
                     <i class="am-icon-suitcase"></i>
                     <span>库存管理</span>
-
                 </a>
             </li>
             <li class="tpl-left-nav-item">
@@ -43,7 +52,7 @@
                 </a>
                 <ul class="tpl-left-nav-sub-menu" style="display: block;">
                     <li>
-                        <a href="manufacturerStatistics">
+                        <a id="manufacturerStatistics" href="manufacturerStatistics" class="">
                             <i class="am-icon-angle-right"></i>
                             <span>供应商统计</span>
                             <i class="am-icon-star tpl-left-nav-content-ico am-fr am-margin-right"></i>

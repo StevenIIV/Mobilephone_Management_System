@@ -26,15 +26,18 @@ public class pageController {
     @Autowired
     private OtherServices otherServices;
     @RequestMapping(value = "/index")
-    public String index(){
+    public String index(HttpSession httpSession){
+        httpSession.setAttribute("page",1);
         return "index";
     }
     @RequestMapping(value = "/importManagement")
-    public String importManagement(){
+    public String importManagement(HttpSession httpSession){
+        httpSession.setAttribute("page",2);
         return "importManagement";
     }
     @RequestMapping(value = "/salesManagement")
-    public String salesManagement(){
+    public String salesManagement(HttpSession httpSession){
+        httpSession.setAttribute("page",3);
         return "salesManagement";
     }
     @RequestMapping(value = "/warehouseManagement")
@@ -115,7 +118,8 @@ public class pageController {
         return "salesOrderQuery";
     }
     @RequestMapping(value = "/warehouse")
-    public String warehouse(){
+    public String warehouse(HttpSession httpSession){
+        httpSession.setAttribute("page",4);
         return "warehouse";
     }
     @RequestMapping(value = "/manufacturerStatistics")
@@ -138,6 +142,7 @@ public class pageController {
             importorderlist.add(l);
         }
         httpSession.setAttribute("importorderlist",importorderlist);
+        httpSession.setAttribute("page",5);
         return "manufacturerStatistics";
     }
 }

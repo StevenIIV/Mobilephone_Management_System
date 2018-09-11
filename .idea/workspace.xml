@@ -18,16 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/controller/pageController.java">
+      <file leaf-file-name="salesManagement.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/salesManagement.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="123" column="5" lean-forward="true" selection-start-line="123" selection-start-column="5" selection-end-line="123" selection-end-column="5" />
-              <folding>
-                <element signature="method#warehouseManagement#0;class#pageController#0" />
-                <element signature="method#importOrderQuery#0;class#pageController#0" />
-                <element signature="method#salesOrderQuery#0;class#pageController#0" />
-              </folding>
+            <state>
+              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -35,8 +30,8 @@
       <file leaf-file-name="mainNavigation.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/views/mainNavigation.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="70" column="57" lean-forward="true" selection-start-line="70" selection-start-column="57" selection-end-line="70" selection-end-column="57" />
+            <state relative-caret-position="185">
+              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -124,8 +119,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/model/SalesOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/controller/salesController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/management_system/controller/statisticsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/management_system/controller/pageController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/manufacturerStatistics.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/management_system/controller/pageController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/mainNavigation.jsp" />
       </list>
     </option>
@@ -146,8 +141,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="952" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
     <option name="width" value="977" />
     <option name="height" value="1040" />
   </component>
@@ -235,7 +230,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/Mobilephone_Management_System" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FileManager" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -497,7 +492,7 @@
       <workItem from="1536570886607" duration="112000" />
       <workItem from="1536585815089" duration="201000" />
       <workItem from="1536641466169" duration="291000" />
-      <workItem from="1536666891904" duration="7349000" />
+      <workItem from="1536666891904" duration="10439000" />
     </task>
     <servers />
   </component>
@@ -534,7 +529,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89438000" />
+    <option name="totallyTimeSpent" value="92528000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1618" height="877" extended-state="6" />
@@ -561,11 +556,11 @@
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4993758" visible="true" weight="0.30718955" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993758" weight="0.30718955" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20973782" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.42052567" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="Learn" order="6" />
@@ -630,13 +625,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/amazeui.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret column="5872" selection-start-column="5872" selection-end-column="5872" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/amazeui.flat.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -645,13 +633,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/importOrderQuery.xhtml" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/salesManagement.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="36" column="183" selection-start-line="36" selection-start-column="177" selection-end-line="36" selection-end-column="183" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/importManagement.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
@@ -960,16 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/manufacturerStatistics.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/importOrderQuery.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1082">
@@ -987,22 +958,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/manufacturerStatistics.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-713">
+          <caret line="23" column="60" lean-forward="true" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/salesManagement.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="503" column="20" selection-start-line="503" selection-start-column="20" selection-end-line="503" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/management_system/controller/pageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="123" column="5" lean-forward="true" selection-start-line="123" selection-start-column="5" selection-end-line="123" selection-end-column="5" />
+        <state relative-caret-position="185">
+          <caret line="97" column="47" lean-forward="true" selection-start-line="97" selection-start-column="47" selection-end-line="97" selection-end-column="47" />
           <folding>
+            <element signature="method#index#0;class#pageController#0" />
+            <element signature="method#importManagement#0;class#pageController#0" />
+            <element signature="method#salesManagement#0;class#pageController#0" />
             <element signature="method#warehouseManagement#0;class#pageController#0" />
             <element signature="method#importOrderQuery#0;class#pageController#0" />
             <element signature="method#salesOrderQuery#0;class#pageController#0" />
+            <element signature="method#warehouse#0;class#pageController#0" />
+            <element signature="method#manufacturerStatistics#0;class#pageController#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/mainNavigation.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="70" column="57" lean-forward="true" selection-start-line="70" selection-start-column="57" selection-end-line="70" selection-end-column="57" />
+        <state relative-caret-position="185">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>

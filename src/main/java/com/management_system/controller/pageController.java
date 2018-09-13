@@ -145,4 +145,24 @@ public class pageController {
         httpSession.setAttribute("page",5);
         return "manufacturerStatistics";
     }
+    @RequestMapping(value = "/agentStatistics")
+    public String agentStatistics(HttpSession httpSession){
+        List<ImportOrder> list=importOrderService.getAllImportOrder();
+        List<List<Object>> agentlist=new ArrayList<>();
+        for(int i=0;i<list.size();i++){
+            ImportOrder importOrder=list.get(i);
+            List<Object> l=new ArrayList<>();
+            l.add(importOrder.getDate());
+            l.add(otherServices.getAgent(Integer.valueOf(importOrder.getAgent())).getYgmc());
+            l.add("采购进货");
+            l.add(importOrder.getYfje());
+            l.add(importOrder.getSfje());
+            l.add(importOrder.getYfje());
+            l.add(importOrder.getCzy());
+            agentlist.add(l);
+        }
+        httpSession.setAttribute("agentlist",agentlist);
+        httpSession.setAttribute("page",6);
+        return "agentStatistics";
+    }
 }

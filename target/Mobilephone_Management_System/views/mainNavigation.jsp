@@ -14,6 +14,7 @@
         else if(page==3) document.getElementById("salesManagement").className+=" active";
         else if(page==4) document.getElementById("warehouse").className+=" active";
         else if(page==5) document.getElementById("manufacturerStatistics").className+=" active";
+        else if(page==6) document.getElementById("manufacturerStatistics").className+=" active";
     }
 </script>
 <div class="tpl-left-nav tpl-left-nav-hover">
@@ -62,7 +63,7 @@
                             <i class="am-icon-angle-right"></i>
                             <span>商品采购统计</span>
                         </a>
-                        <a href="#">
+                        <a id="agentStatistics" href="agentStatistics" class="">
                             <i class="am-icon-angle-right"></i>
                             <span>业务员统计</span>
                         </a>

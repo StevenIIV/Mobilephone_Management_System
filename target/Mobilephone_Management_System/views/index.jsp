@@ -19,15 +19,15 @@
     <%@include file="mainNavigation.jsp"%>
     <div class="tpl-content-wrapper">
         <div class="tpl-content-page-title">手机销售管理系统</div>
-        <div class="tpl-content-scope">
+        <!--<div class="tpl-content-scope">
             <div class="note note-info" style="margin-top: 15px">
                 <h3>Amaze UI 为移动而生<span class="close" data-close="note"></span></h3>
                 <p> Amaze UI 含近 20 个 CSS 组件、20 余 JS 组件，更有多个包含不同主题的 Web 组件，可快速构建界面出色、体验优秀的跨屏页面，大幅提升开发效率。</p>
                 <p><span class="label label-danger">提示:</span> Amaze UI 关注中文排版，根据用户代理调整字体，实现更好的中文排版效果。
                 </p>
             </div>
-        </div>
-        <div class="row">
+        </div>-->
+        <div class="row" style="margin-top: 20px">
             <div class="am-u-md-6 am-u-sm-12 row-mb">
                 <div class="tpl-portlet">
                     <div class="tpl-portlet-title">
